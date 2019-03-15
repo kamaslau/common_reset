@@ -1,0 +1,32 @@
+{
+  "name": "common_reset",
+  "version": "0.0.5",
+  "description": "Common used css reset rules.",
+  "main": "common_reset.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamaslau/common_reset.git"
+  },
+  "keywords": [
+    "common_reset",
+    "kamas lau",
+    "css",
+    "reset",
+    "normalize",
+    "minireset",
+    "ress",
+    "marx",
+    "css-reset",
+    "html5-reset",
+    "Eric Meyer"
+  ],
+  "author": "Kamas Lau <kamaslau@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kamaslau/common_reset/issues"
+  },
+  "homepage": "https://github.com/kamaslau/common_reset"
+}

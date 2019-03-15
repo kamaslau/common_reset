@@ -1,0 +1,9 @@
+# OS
+.DS_store
+
+# IDE
+.idea/
+
+# misc
+node_modules/
+package-lock.json

@@ -1,0 +1,82 @@
+/*! common_reset.css v0.0.5 20190315 | MIT License | github.com/kamaslau/common_reset */
+
+/**
+ * general
+ */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/**
+ * container
+ */
+
+/**
+ * form
+ */
+form * {
+    border-width: 1px; /* restore necessary border */
+}
+
+/**
+ * link
+ */
+a {
+    text-decoration: none;
+}
+
+/**
+ * list
+ */
+ol, ul {
+    list-style: none;
+}
+
+/**
+ * object
+ */
+audio, embed, iframe, img, object, video {
+    height: auto;
+    max-width: 100%;
+}
+
+/**
+ * quote
+ */
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+
+/**
+ * table
+ */
+table * {
+    border-width: 1px; /* restore necessary border */
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/**
+ * misc
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
