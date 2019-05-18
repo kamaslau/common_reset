@@ -1,4 +1,4 @@
-/*! common_reset.css v0.0.5 20190315 | MIT License | github.com/kamaslau/common_reset */
+/*! common_reset.css v0.0.6 20190519 | MIT License | github.com/kamaslau/common_reset */
 
 /**
  * general
@@ -66,12 +66,12 @@ blockquote:before, blockquote:after, q:before, q:after {
 /**
  * table
  */
-table * {
-    border-width: 1px; /* restore necessary border */
-}
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+table * {
+    border-width: 1px; /* restore necessary border */
 }
 
 /**
@@ -79,4 +79,7 @@ table {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
+}
+p {
+    hyphens: auto; /* so you don't need manual &shy; */
 }
