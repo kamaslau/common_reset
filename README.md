@@ -3,7 +3,7 @@ Common used css reset rules, works better with [Normalize.css](https://github.co
 
 ## NPM
 ```javascript
-npm install common_reset --save // Subject based
+npm i common_reset --s // Subject based
 ```
 
 ## Usage
@@ -21,4 +21,4 @@ nuxt.config.js
 ```
 
 ## Download
-Latest version is available through [https://github.com/kamaslau/common_reset/latest/common_reset.css](https://github.com/kamaslau/common_reset/latest/common_reset.css)
+Latest version is available through [https://github.com/kamaslau/common_reset/releases](https://github.com/kamaslau/common_reset/releases)
